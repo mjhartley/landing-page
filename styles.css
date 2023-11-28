@@ -1,0 +1,153 @@
+*
+{
+     border-style: solid;
+    border-color: green;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+} 
+
+.header-container
+{
+    display: flex;
+    padding: 20pt 10pt;
+    background-color: #1f2937;
+    margin-left: 100pt;
+    margin-right: 100pt;
+}
+
+.header-logo
+{
+   font-size: 24px;
+   color: #f9faf8;
+   margin-left: 10%;
+   margin-right: auto;
+   font-weight: 700;
+
+   
+}
+
+.header-text
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-left: 20pt;
+}
+
+.item3
+{
+    padding-right: 10%;
+}
+
+.section1-container
+{
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 100pt 10pt;    
+    margin-left: 100pt;
+    margin-right: 100pt;
+    gap: 10pt;
+
+
+}
+
+.section1-box
+{
+    flex-flow: row;
+    width: 50%;
+    align-items: stretch;
+    margin-left: 75pt;
+    margin-right: 75pt;
+
+}
+
+.section1-heading1
+{
+    font-size: 48px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.section1-subtext1
+{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.section1-image
+{
+    display:flex;
+    background-color: grey;
+    color: white;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-standard
+{
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5pt;
+    margin: 10pt 0;
+    padding: 5pt;
+    Width: 70pt;
+
+}
+
+.section2-container
+{
+    background-color: white;
+    margin-left: 100pt;
+    margin-right: 100pt;
+}
+
+.section2-title
+{
+    display: flex;
+    background-color: white;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    justify-content: center;
+    padding-top: 50pt;
+    padding-bottom: 50pt;
+}
+
+.section2-boxes
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 100pt;
+    margin-right: 100pt;
+    min-width: auto;
+}
+
+.section2-box
+{
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.section2-box-image
+{
+    display: flex;
+    border-style: solid;
+    border-color: blue;
+    border-width: 2pt;
+    border-radius: 5pt;
+    height: 100pt;
+    width: 100pt;
+    
+}
+
+.section2-box-text
+{  
+    width: 100pt;
+}
