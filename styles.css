@@ -3,7 +3,7 @@
 {
      border-style: solid;
     border-color: green;
-}
+} 
 */
 
 body {
@@ -27,7 +27,6 @@ body {
    margin-left: 100pt;
    margin-right: auto;
    font-weight: 700;
-
    
 }
 
@@ -62,8 +61,8 @@ body {
     flex-flow: row;
     width: 50%;
     align-items: stretch;
-    margin-left: 75pt;
-    margin-right: 75pt;
+    margin-left: 100pt;
+    margin-right: 100pt;
 
 }
 
@@ -167,8 +166,8 @@ body {
 
 .section3-quote
 {
-    margin-left: 150pt;
-    margin-right: 150pt;
+    margin-left: 250pt;
+    margin-right: 250pt;
     font-size: 36px;
     font-style:italic;
     font-weight: lighter;
@@ -183,5 +182,65 @@ body {
     font-weight:bold;
     color: #1F2937;
     justify-content: flex-end;
-    margin-right: 200pt;
+    margin-right: 250pt;
+}
+
+.section4-container
+{
+    background-color: white;
+    padding: 10pt 50pt;
+    margin-left: 100pt;
+    margin-right: 100pt;
+
+}
+
+.section4-box
+{
+    display:flex;
+    flex-direction:row;
+    background-color: #3882f6;
+    color: white;
+    margin: 50pt 100pt;
+    padding: 35pt;
+    border-radius: 5pt;
+    justify-content: space-between;
+}
+
+.section4-box-heading1
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.section4-box-heading2
+{
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+
+.button-inverted
+{
+    background-color: #3882f6;
+    border-color: white;
+    border-radius: 5pt;
+    border-style: solid;
+    margin: 10pt 0;
+    padding: 5pt;
+    Width: 70pt;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-container
+{
+    display: flex;
+    background-color: #1F2937;
+    padding: 25pt;
+    margin-left: 100pt;
+    margin-right: 100pt;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
 }
